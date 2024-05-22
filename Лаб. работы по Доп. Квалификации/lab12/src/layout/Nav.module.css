@@ -1,0 +1,58 @@
+.main_menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 70px 0px 70px;
+  background-color: white;
+}
+
+.logo {
+  height: 60px;
+}
+
+.components {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.components a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  gap: 20px;
+}
+
+
+.make_request {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 35px;
+  gap: 30px;
+  border: none;
+  padding: 15px 15px;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #df790d;
+}
+
+.calculation {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  gap: 30px;
+  color: white;
+  border: none;
+  padding: 15px 15px;
+  cursor: pointer;
+  border-radius: 7px;
+  background-color: #343450;
+}
+
+
+
